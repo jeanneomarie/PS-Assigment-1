@@ -20,15 +20,15 @@ The feature descriptions may be found in [this presentation](https://docs.google
 
 ## Getting started
  * Head over to https://start.spring.io/.
- * Leave the defaults on the first line ("Generate a Maven project with Java and Spring Boot 2.x).
- * Group: `ro.utcn.ps.<your initials, nickname, etc>`, example: `ro.utcn.ps.ioana-onofrei`.
+ * Leave the defaults for Project / Language / Spring Boot (Maven Project / Java / Spring Boot 2.6.4).
+ * Group: `ro.utcn.ps.<your initials, nickname, etc>`, example: `ro.utcn.ps.ono`.
  * Artifact: `assignment1`.
  * Dependencies:
    - JDBC,
    - MySQL,
    - JPA,
-   - Spring Web
-   - Optional: include the Lombok dependency if you have the [Lombok plugin installed](https://projectlombok.org/) in your IDE and you want to write less boilerplate code.
+   - Spring Web,
+   - Optional: include the Lombok dependency if you want to write less boilerplate code.
  * Unzip the generated archive contents inside this folder.
  * Open the folder (which should contain the `pom.xml` file) inside IntelliJ IDEA.
  * IntelliJ should download dependencies and you should be able to start coding.
@@ -49,9 +49,9 @@ Minimum requirements for a passing grade:
  * JDBC-backed repository,
  * Abstract factory to select between them,
  * Hard coded factory implementation selection logic,
- * Unit tests for the service layer.
- * Prepare and present design
- * Test written code from Postman
+ * Unit tests for the service layer,
+ * Prepare and present design*,
+ * Show in Postman how you tested the code.
 
 **Prepare a data model, class diagram and package diagram and present it at the laboratory.*
 
