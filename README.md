@@ -71,6 +71,6 @@ Bonus requirements:
 |------------------------------------------------------------|--------|
 | Factory implementation selected via application.properties | 0.5    |
 | Spring Data Repositories                                   | 1.0    |
-| Database init. with Liquibase / Flyway                     | 1.0    |
 | CommandLineRunner Controller                               | 1.0    |
+| Database init. with Liquibase / Flyway                     | 1.0    |
 | Integration tests using H2 DB                              | 2.0    |
